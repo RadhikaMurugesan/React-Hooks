@@ -1,0 +1,54 @@
+.topnav {
+  background-color: #090057;
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.topnav span {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 4px;
+  margin-right: auto;
+}
+
+.topnav-right {
+  float: right;
+}
+
+.selectCountry {
+  color: black;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 4px;
+  position: absolute;
+  margin: auto;
+  right: 15px;
+  top: 0;
+  bottom: 0;
+  height: 35px;
+}
+
+.topnav .active {
+  background-color: #4caf50;
+  color: white;
+}

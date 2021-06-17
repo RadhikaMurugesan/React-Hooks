@@ -1,0 +1,21 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 70px;
+  gap: 15px;
+}
+
+.not-available {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 100px;
+  background-color: lightgreen;
+}
+
+@media (max-width: 800px) {
+  .card-container {
+    flex-direction: column;
+  }
+}
